@@ -14,8 +14,10 @@ pip3 install -r requirements.txt
 
 4. create .env file in root project with value as follow:
 
+```
 SECRET_KEY=PUT_YOUR_SECRET_KEY_HERE
 CALLBACK_URL="http://localhost:3001/callback"
+```
 
 ## How to use
 1. from root project, run local server with command (we need to use 127.0.0.1:3001 for callback):
