@@ -2,14 +2,14 @@
 
 1. clone the repository
 
-2. Go to myapp root project
+2. Go to the root project
 
 3. Set up virtualenv
 
 ```shell
 python3 -m venv env
 source env/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 4. create .env file in root project with value as follow:
